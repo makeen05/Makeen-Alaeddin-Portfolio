@@ -405,6 +405,63 @@ function App() {
           </div>
         </section>
 
+        {/* Technical Skills Section */}
+        <section id="skills" className="section-padding bg-gray-800">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
+                Technical Skills
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Languages</h3>
+                <div className="flex flex-wrap gap-2">
+                  {['C', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'SQL'].map(skill => (
+                    <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Backend & APIs</h3>
+                <div className="flex flex-wrap gap-2">
+                  {['Node.js', 'Next.js', 'Express', 'Flask', 'REST APIs', 'JWT Authentication'].map(skill => (
+                    <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Frontend</h3>
+                <div className="flex flex-wrap gap-2">
+                  {['React', 'Next.js', 'Tailwind CSS'].map(skill => (
+                    <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Databases</h3>
+                <div className="flex flex-wrap gap-2">
+                  {['MongoDB', 'MySQL', 'Supabase'].map(skill => (
+                    <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Vote Section */}
         <section className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 to-black overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-transparent"></div>
