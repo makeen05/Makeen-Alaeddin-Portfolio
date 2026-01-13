@@ -321,6 +321,90 @@ function App() {
           </div>
         </section>
 
+        {/* Volunteering Section */}
+        <section id="volunteering" className="section-padding bg-gray-900">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
+                Volunteering
+              </h2>
+            </div>
+
+            <div className="space-y-6 sm:space-y-8 max-w-5xl mx-auto">
+              {/* UNSW CSESoc */}
+              <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">UNSW CSESoc</h3>
+                    <p className="text-blue-400 font-medium mb-2">Socials Director</p>
+                  </div>
+                  <div className="text-sm text-gray-400">November 2024 – November 2025</div>
+                </div>
+                <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Led planning and execution of large-scale social events for UNSW Computer Science students
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Managed a team of 10 subcommittee members, coordinating weekly meetings and events
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Collaborated with Careers and Outreach portfolios on philanthropy and diversity-focused initiatives
+                  </li>
+                </ul>
+              </div>
+
+              {/* UNSW Mathematics Society */}
+              <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">UNSW Mathematics Society</h3>
+                    <p className="text-blue-400 font-medium mb-2">Socials Subcommittee Member</p>
+                  </div>
+                  <div className="text-sm text-gray-400">March 2024 – November 2024</div>
+                </div>
+                <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Organised large-scale social events with over 200 attendees
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Coordinated with business owners and venues to manage logistics and partnerships
+                  </li>
+                </ul>
+              </div>
+
+              {/* UNSW Yellow Shirts */}
+              <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">UNSW Yellow Shirts</h3>
+                    <p className="text-blue-400 font-medium mb-2">Volunteer</p>
+                  </div>
+                  <div className="text-sm text-gray-400">November 2024 – February 2025</div>
+                </div>
+                <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Welcomed and oriented thousands of new students during O-Week
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Led campus tours, icebreakers, and social events to foster inclusion
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Collaborated with a diverse team of 100+ volunteers
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Vote Section */}
         <section className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 to-black overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-transparent"></div>
