@@ -203,22 +203,20 @@ function App() {
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
                   <div>
                     <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Software Engineering Intern</h3>
-                    <p className="text-blue-400 font-medium mb-2">Lamigo</p>
+                    <p className="text-blue-400 font-medium mb-2">Lamigo, https://lamigo.ai/</p>
                   </div>
                   <div className="text-sm text-gray-400">October 2025 – December 2025</div>
                 </div>
                 <ul className="space-y-2 text-sm sm:text-base text-gray-300">
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
-                    Built core features for a full-stack employee onboarding platform using React, Next.js, TypeScript, and Supabase
-                  </li>
+                    Built core features for a full-stack employee onboarding platform using React, Next.js, TypeScript, and Supabase                  </li>
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
-                    Implemented screen-recording workflows for audio and real-time AI guidance via banners
-                  </li>
+                    Implemented screen-recording workflows for admins and real-time AI voice guidance for learners                  </li>
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
-                    Integrated AI tools including Twelve Labs, Google AI Studio, MediaRecorder API, FFmpeg.wasm, and WebSockets
+                    Integrated AI and media tools including Twelve Labs, Google AI Studio, MediaRecorder API, FFmpeg.wasm, and WebSockets
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-2">•</span>
@@ -255,120 +253,70 @@ function App() {
           </div>
         </section>
 
-        {/* Vision Section */}
-        <section id="vision" className="section-padding bg-gray-800">
+        {/* Projects Section */}
+        <section id="projects" className="section-padding bg-gray-800">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12 sm:mb-16">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-                Vision for 2026
+                My Projects
               </h2>
               <p className="text-base sm:text-lg text-gray-300">
-                Let's elevate CSESoc!
+                Click to explore each project
               </p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-              {/* Internal Structure */}
-              <div className="bg-gray-900 border border-blue-800/30 rounded-2xl p-6 sm:p-8">
-                <div className="flex items-center mb-4 sm:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-900 rounded-xl flex items-center justify-center mr-3 sm:mr-4">
-                    <div className="text-xl sm:text-2xl">🫀</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              {/* Unemployed Project */}
+              <a 
+                href="unemployed-delta.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+              >
+                <div className="mb-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Unemployed - GitHub Repository to Job Matching Platform</h3>
+                  <p className="text-sm text-gray-400 mb-4">Full-Stack Web Application</p>
+                  <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed">
+                    A full-stack platform that analyzes GitHub repositories to match users with relevant job opportunities. 
+                    Features intelligent repository analysis leveraging GITHUB API, AI-powered job keyword generation using Google Gemini, 
+                    and job discovery via Seek scraping.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">React</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">JavaScript</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">Express</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">Python</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">Flask</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">Vercel</span>
+                    <span className="px-3 py-1 bg-blue-900/50 text-blue-300 rounded-full text-xs">Railway</span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">Internal Structure</h3>
                 </div>
-                <ul className="space-y-3 sm:space-y-4">
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Encourage students to get involved, meet new people, and try that program out!</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Ensure all interactions, whether that be internally or externally, reflect the welcoming, supportive and innovative culture we aim to foster</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Make sure all voices are heard! Whether that be a subcom member to an exec</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Celebrate the contributions of volunteers and members to build a stronger sense of belonging and appreciation</span>
-                  </li>
-                </ul>
-              </div>
+              </a>
 
-              {/* Innovation & Growth */}
-              <div className="bg-gray-900 border border-purple-600/30 rounded-2xl p-6 sm:p-8">
-                <div className="flex items-center mb-4 sm:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-purple-900 rounded-xl flex items-center justify-center mr-3 sm:mr-4">
-                    <div className="text-xl sm:text-2xl">🚀</div>
+              {/* Campus Resource Tracker */}
+              <a 
+                href="[INSERT LINK]" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+              >
+                <div className="mb-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Campus Resource Tracker</h3>
+                  <p className="text-sm text-gray-400 mb-4">Full-Stack Web Application</p>
+                  <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed">
+                    A resource discovery platform helping students locate nearby campus resources like toilets, 
+                    power outlets, and vending machines. Features JWT authentication, MongoDB geospatial indexing, 
+                    and interactive maps with Leaflet.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-xs">React</span>
+                    <span className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-xs">TypeScript</span>
+                    <span className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-xs">MongoDB</span>
+                    <span className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-xs">JWT</span>
+                    <span className="px-3 py-1 bg-purple-900/50 text-purple-300 rounded-full text-xs">Leaflet</span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">Innovation & Growth!</h3>
                 </div>
-                <ul className="space-y-3 sm:space-y-4">
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Pilot new event initiatives and mentorship programs! I was thinking of a program where mentors are able to critique and provide guidance to those wanting to build their first personal project</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Encourage fresh ideas from across the society by creating regular brainstorming sessions, feedback threads and “pitch your event” opportunities.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Create cross-university collaboration initiatives</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-gray-900 border border-green-600/30 rounded-2xl p-6 sm:p-8">
-                <div className="flex items-center mb-4 sm:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-900 rounded-xl flex items-center justify-center mr-3 sm:mr-4">
-                    <div className="text-xl sm:text-2xl">🤝</div>
-                  </div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">Inclusivity and Diversity</h3>
-                </div>
-                <ul className="space-y-3 sm:space-y-4">
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Continue to collaborate with a variety of socities including ENGSoc, WIT, MahjongSoc, IceSoc, and more to create events that are welcoming to ANYONE regardless of background or faculty.</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Aim to host a more diverse range events, introducing events we have never seen before!</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Collect feedback via attendance form specifically asking how to improve accessibility in future events.</span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="bg-gray-900 border border-yellow-600/30 rounded-2xl p-6 sm:p-8">
-                <div className="flex items-center mb-4 sm:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-yellow-900 rounded-xl flex items-center justify-center mr-3 sm:mr-4">
-                    <div className="text-xl sm:text-2xl">💼</div>
-                  </div>
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">Professional Development</h3>
-                </div>
-                <ul className="space-y-3 sm:space-y-4">
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Launch innovative project-based learning initiatives. I was thinking to collaborate with more start-ups on this for mutual benefits :)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Involve CSESoc alumni for panel talks and networking nights</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Offer more technical workshops/ competitions that focus on emerging technologies and opportunities!</span>
-                  </li>
-                  <li className="flex items-start">
-                    <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                    <span className="text-sm sm:text-base text-gray-300">Expand industry partnerships for internship opportunities</span>
-                  </li>
-                </ul>
-              </div>
+              </a>
             </div>
           </div>
         </section>
