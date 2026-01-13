@@ -414,11 +414,11 @@ function App() {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
               <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
                 <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Languages</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['C', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', 'SQL'].map(skill => (
+                  {['C', 'Java', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'Assembly'].map(skill => (
                     <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -427,9 +427,9 @@ function App() {
               </div>
 
               <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
-                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Backend & APIs</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Frameworks</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Node.js', 'Next.js', 'Express', 'Flask', 'REST APIs', 'JWT Authentication'].map(skill => (
+                  {['Node.js', 'Next.js', 'Express', 'REST APIs', 'JWT Authentication', 'JUnit'].map(skill => (
                     <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -438,20 +438,9 @@ function App() {
               </div>
 
               <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
-                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Frontend</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Tools</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'Next.js', 'Tailwind CSS'].map(skill => (
-                    <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              <div className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700">
-                <h3 className="text-lg sm:text-xl font-bold text-blue-400 mb-4">Databases</h3>
-                <div className="flex flex-wrap gap-2">
-                  {['MongoDB', 'MySQL', 'Supabase'].map(skill => (
+                  {['Git', 'Gitlab CI/CD', 'MongoDB', 'Supabase', 'Jest', 'Postman', 'Vercel', 'Railway'].map(skill => (
                     <span key={skill} className="px-3 py-2 bg-gray-800 text-gray-300 rounded-lg text-sm">
                       {skill}
                     </span>
