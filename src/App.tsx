@@ -451,14 +451,14 @@ function App() {
           </div>
         </section>
 
-        {/* Vote Section */}
+        {/* Contact Section */}
         <section className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 to-black overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-transparent"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
             <div className="max-w-4xl mx-auto text-center">
               <div className="mb-6 sm:mb-8 flex justify-center">
                 <div className="relative">
-                  <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-yellow-400 shadow-lg">
+                  <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-yellow-300 shadow-lg">
                     <img
                       src={bt}
                       alt="Makeen Alaeddin"
@@ -468,18 +468,39 @@ function App() {
                 </div>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white font-bold mb-6 sm:mb-8">
-                Thanks for reading and lets make this happen by putting me as your <span className="text-yellow-400" style={{
-                  textShadow: '0 0 10px #fbbf24'
-                }}>#1 </span>preference for <span className="text-yellow-400" style={{
-                  textShadow: '0 0 10px #fbbf24'
-                }}>Co-President </span>and <span className="text-yellow-400" style={{
-                  textShadow: '0 0 10px #fbbf24'
-                }}>Vice President (External) </span>:)
+                Want to say hi?
               </h2>
               
-              <p className="text-sm sm:text-base text-white px-4">
-                Got a question or just want to say hi? I'm always up for a chat! Reach out on @makeenala on instagram or makeen2023@gmail.com 💃🏻
-              </p>
+              <div className="space-y-4 text-base sm:text-lg text-gray-300">
+                <p className="flex items-center justify-center gap-2">
+                  <span className="text-blue-400">📧</span>
+                  <a href="mailto:makeen2023@gmail.com" className="hover:text-blue-400 transition-colors">
+                    makeen2023@gmail.com
+                  </a>
+                </p>
+                <p className="flex items-center justify-center gap-2">
+                  <span className="text-blue-400">💼</span>
+                  <a 
+                    href="https://www.linkedin.com/in/makeen-alaeddin-046415270/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    LinkedIn
+                  </a>
+                </p>
+                <p className="flex items-center justify-center gap-2">
+                  <span className="text-blue-400">💻</span>
+                  <a 
+                    href="https://github.com/makeen05" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    GitHub
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -487,5 +508,6 @@ function App() {
     </>
   )
 }
+
 
 export default App
