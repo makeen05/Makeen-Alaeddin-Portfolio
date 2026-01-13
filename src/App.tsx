@@ -188,162 +188,68 @@ function App() {
           </div>
         </section>
 
-        {/* Contributions Section */}
-        <section id="contributions" className="section-padding bg-gray-900">
+        {/* Experience Section */}
+        <section id="experience" className="section-padding bg-gray-900">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12 sm:mb-16">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-                My Contributions
+                Experience
               </h2>
-              <p className="text-base sm:text-lg text-gray-300">
-                Snapshots of my work with CSESoc!
-              </p>
             </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              {/* Contribution Cards */}
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={pm}
-                    alt="Peer Mentoring Program"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
+
+            <div className="space-y-6 sm:space-y-8 max-w-5xl mx-auto">
+              {/* Software Engineering Intern */}
+              <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Software Engineering Intern</h3>
+                    <p className="text-blue-400 font-medium mb-2">Lamigo</p>
+                  </div>
+                  <div className="text-sm text-gray-400">October 2025 – December 2025</div>
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Peer Mentoring Program</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  Organised and managed CSESoc's flagship peer mentoring programing. We helped first year undergraduate and postgraduate students ease into their studies and make friends!
-                </p>
-                <div className="flex items-center text-green-400 font-medium text-sm">
-                  ⭐️ 200+ students mentored
-                </div>
+                <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Built core features for a full-stack employee onboarding platform using React, Next.js, TypeScript, and Supabase
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Implemented screen-recording workflows for audio and real-time AI guidance via banners
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Integrated AI tools including Twelve Labs, Google AI Studio, MediaRecorder API, FFmpeg.wasm, and WebSockets
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Developed reusable custom hooks and backend endpoints for video processing, audio streaming, authentication, and AI session state
+                  </li>
+                </ul>
               </div>
 
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={br}
-                    alt="Brushes and Blizzards"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
+              {/* Private Tutor */}
+              <div className="bg-gray-800 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Private Tutor — Physics & Mathematics</h3>
+                    <p className="text-blue-400 font-medium mb-2">Evolutionary Tutors + Self-Employed</p>
+                  </div>
+                  <div className="text-sm text-gray-400">February 2024 – Present</div>
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Brushes and Blizzards</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  A paint n sip! My favourite event of the year teehee. Super fun to plan and execute but realised how bad I am at painting lol.
-                </p>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={mj}
-                    alt="Mahjong Night"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">MAHJONG Night</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  This was CSESoc's first ever Mahjong night! Tons of new faces and great to see some people's competitve nature come out hehe
-                </p>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={ic}
-                    alt="Ice Skating"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Ice Skating</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  Off campus event with ICESoc!
-                </p>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={sp}
-                    alt="Sports Day"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">CSESOC x ENGSOC Sports Day</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  This was one of my first events as Socials Director, will never forget this one lol
-                </p>
-                <div className="flex items-center text-green-400 font-medium text-sm">
-                  💚 100+ attendees
-                </div>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={cl}
-                    alt="Bouldering"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Bouldering</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2024</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  Crowd favourite 😆
-                </p>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={tr}
-                    alt="Trivia Night"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Trivia Night</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  This was actually our peer mentor outduction in term 1. So happy to see how close the groups have gotten 🥹.
-                </p>
-                <div className="flex items-center text-green-400 font-medium text-sm">
-                  🎉 50+ participants
-                </div>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={wk}
-                    alt="Stress Less Week"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />              
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Stress Less Week</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2024</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  I gave someone a fake neck tattoo at this event LOL.
-                </p>
-              </div>
-
-              <div className="bg-gray-800 rounded-xl p-4 sm:p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1">
-                <div className="w-full h-48 sm:h-56 lg:h-64 rounded-lg mb-4 sm:mb-6 flex items-center justify-center">
-                  <img
-                    src={sl}
-                    alt="Socials Team"
-                    className="w-full h-full object-cover rounded-2xl"
-                  />
-                </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">Socials 25'!</h3>
-                <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-4">2025</p>
-                <p className="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">
-                  The best port I could ever ask for no glaze. An experience I'll take way beyond my time in university ❤️.
-                </p>
+                <ul className="space-y-2 text-sm sm:text-base text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Provided personalised one-on-one tutoring for students in Years 7–12
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Tailored lesson plans to individual learning styles and academic goals
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Simplified complex concepts to improve comprehension and exam performance
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
