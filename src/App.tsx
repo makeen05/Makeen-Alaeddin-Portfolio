@@ -169,7 +169,7 @@ function App() {
               <div className="relative animate-float lg:pl-8 mt-8 lg:mt-0">
                 <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 rounded-3xl transform rotate-6"></div>
-                  <div className="absolute inset-0 bg-blue-400 rounded-3xl transform -rotate-6"></div>
+                  <div className="absolute inset-0 bg-yellow-300 rounded-3xl transform -rotate-6"></div>
                   <div className="relative bg-gray-800 rounded-3xl p-3 sm:p-4 shadow-2xl flex items-center justify-center">
                     <img
                       src={profileImage}
@@ -184,31 +184,6 @@ function App() {
           <div className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <div className="w-6 h-10 border-2 border-gray-500 rounded-full flex justify-center">
               <div className="w-1 h-3 bg-gray-500 rounded-full mt-2 animate-pulse"></div>
-            </div>
-          </div>
-        </section>
-        
-        {/* About Section */}
-        <section id="about" className="section-padding bg-gray-800">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-              About Me
-            </h2>
-            <div className="bg-gray-900 rounded-2xl p-6 sm:p-8 lg:p-12 text-left border border-gray-700">
-              <p className="text-base sm:text-lg leading-relaxed text-gray-300">
-                Hiiii I'm Makeen! 👋 I'm in my second year of university studying Maths and Computer 
-                Science, and one of the amazing super cool <b>2025 Socials Directors at CSESoc!</b>
-                <br></br>
-                <br></br>
-                From being in Socials at CSESoc, I've been able to have a <b>direct impact on those in their first year, those looking for their first friend at uni, and maybe even you!</b> From our flagship peer mentoring program ❤️, to paint n sips 🎨 and sport days 🏀, I've been able to make CSESoc a space for everyone to easily meet new people whilst having fun! 
-                <br></br>
-                <br></br>
-                I've met so many cool people, learnt so many things about myself and have proudly grown into the person I am today.
-                I've been lucky enough to be a part of CSESoc since first year, and I can honestly say that its been the most valuable, memorable and fun experience that I will keep with me for the rest of my life. 
-                <br></br>
-                <br></br>
-                I aim to continue to make CSESoc a space where EVERYONE belongs through our diverse range of events, hopefully in the 2026 exec team 😊
-              </p>
             </div>
           </div>
         </section>
