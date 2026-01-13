@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { Analytics } from "@vercel/analytics/react"
 import './App.css'
 import profileImage from './assets/profile.png'
+import unemployed from './assets/gg.png'
+import res from './assets/hig.png'
 import pm from './assets/pm.png'
 import br from './assets/br.png'
 import mj from './assets/mj.png'
@@ -208,6 +210,12 @@ function App() {
                     <span className="text-blue-400 mr-2">•</span>
                     Developed reusable custom hooks and backend endpoints for video processing, audio streaming, authentication, and AI session state
                   </li>
+                    <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Admin demo: https://www.loom.com/share/4de7bf4093334eeea178044001a406f0
+                    <br></br>
+                    Learner demo: https://www.loom.com/share/f4b2dd1366e24ef095103f231f56546d
+                  </li>
                 </ul>
               </div>
 
@@ -257,9 +265,16 @@ function App() {
                 href="https://unemployed-delta.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+                className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
               >
-                <div className="mb-6">
+                <div className="w-full h-48 overflow-hidden">
+                  <img
+                    src={unemployed}
+                    alt="Unemployed Project"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6 sm:p-8">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Unemployed - GitHub Repository to Job Matching Platform</h3>
                   <p className="text-sm text-gray-400 mb-4">Full-Stack Web Application</p>
                   <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed">
@@ -284,9 +299,16 @@ function App() {
                 href="[INSERT LINK]" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+                className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
               >
-                <div className="mb-6">
+                <div className="w-full h-48 overflow-hidden">
+                  <img
+                    src={res}
+                    alt="Campus Resource Tracker Project"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6 sm:p-8">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Campus Resource Tracker</h3>
                   <p className="text-sm text-gray-400 mb-4">Full-Stack Web Application</p>
                   <p className="text-sm sm:text-base text-gray-300 mb-4 leading-relaxed">
