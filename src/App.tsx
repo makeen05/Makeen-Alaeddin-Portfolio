@@ -30,7 +30,7 @@ function App() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
     }
-    setIsMobileMenuOpen(false) // Close mobile menu after navigation
+    setIsMobileMenuOpen(false)
   }
 
   return (
@@ -56,16 +56,28 @@ function App() {
                   About
                 </button>
                 <button 
-                  onClick={() => scrollToSection('contributions')}
+                  onClick={() => scrollToSection('experience')}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
                 >
-                  Contributions
+                  Experience
                 </button>
                 <button 
-                  onClick={() => scrollToSection('vision')}
+                  onClick={() => scrollToSection('projects')}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
                 >
-                  Vision
+                  Projects
+                </button>
+                <button 
+                  onClick={() => scrollToSection('volunteering')}
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
+                >
+                  Volunteering
+                </button>
+                <button 
+                  onClick={() => scrollToSection('skills')}
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
+                >
+                  Skills
                 </button>
               </div>
 
@@ -97,16 +109,28 @@ function App() {
                     About
                   </button>
                   <button 
-                    onClick={() => scrollToSection('contributions')}
+                    onClick={() => scrollToSection('experience')}
                     className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
                   >
-                    Contributions
+                    Experience
                   </button>
                   <button 
-                    onClick={() => scrollToSection('vision')}
+                    onClick={() => scrollToSection('projects')}
                     className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
                   >
-                    Vision
+                    Projects
+                  </button>
+                  <button 
+                    onClick={() => scrollToSection('volunteering')}
+                    className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  >
+                    Volunteering
+                  </button>
+                  <button 
+                    onClick={() => scrollToSection('skills')}
+                    className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  >
+                    Skills
                   </button>
                 </div>
               </div>
@@ -120,46 +144,32 @@ function App() {
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="animate-slide-up text-center lg:text-left lg:pr-8">
-                <div className="inline-flex items-center px-3 sm:px-4 py-2 bg-blue-900/50 text-blue-300 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
-                  CSESoc Socials Director 2025
-                </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-                  Makeen <span className="text-blue-400">Alaeddin</span>
+                  Welcome to <span className="text-blue-400">Makeen Alaeddin's</span> Portfolio!
                 </h1>
-                <div className="text-lg sm:text-xl lg:text-2xl text-gray-300 mb-2 sm:mb-4">
-                  Running for
-                </div>
-                <div className="text-xl sm:text-2xl lg:text-3xl font-semibold text-yellow-400 mb-6 sm:mb-8" style={{
-                  textShadow: '0 0 30px #fbbf24'
-                }}>
-                  Co-President<br/>
-                  & Vice President (External)
+                <div className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
+                  I'm entering my third year studying Mathematics and Computer Science at UNSW. 
+                  I love learning new things by building cool projects and solving real-world problems through software!
                 </div>
                 <div className="flex flex-col gap-3 sm:gap-4 max-w-md mx-auto lg:mx-0">
                   <button 
                     onClick={() => scrollToSection('about')}
                     className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 text-sm sm:text-base"
                   >
-                    About Me
+                    Learn More
                   </button>
                   <button 
-                    onClick={() => scrollToSection('contributions')}
+                    onClick={() => scrollToSection('projects')}
                     className="bg-gray-800 text-blue-400 border-2 border-blue-600 hover:bg-gray-700 font-semibold py-3 px-6 rounded-lg transition-all duration-200 text-sm sm:text-base"
                   >
-                    View Contributions
-                  </button>
-                  <button 
-                    onClick={() => scrollToSection('vision')}
-                    className="bg-gray-800 text-blue-400 border-2 border-blue-600 hover:bg-gray-700 font-semibold py-3 px-6 rounded-lg transition-all duration-200 text-sm sm:text-base"
-                  >
-                    See My Vision
+                    View My Projects
                   </button>
                 </div>
               </div>
               <div className="relative animate-float lg:pl-8 mt-8 lg:mt-0">
                 <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 mx-auto relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 rounded-3xl transform rotate-6"></div>
-                  <div className="absolute inset-0 bg-yellow-400 rounded-3xl transform -rotate-6"></div>
+                  <div className="absolute inset-0 bg-blue-400 rounded-3xl transform -rotate-6"></div>
                   <div className="relative bg-gray-800 rounded-3xl p-3 sm:p-4 shadow-2xl flex items-center justify-center">
                     <img
                       src={profileImage}
@@ -177,7 +187,7 @@ function App() {
             </div>
           </div>
         </section>
-
+        
         {/* About Section */}
         <section id="about" className="section-padding bg-gray-800">
           <div className="max-w-4xl mx-auto text-center">
