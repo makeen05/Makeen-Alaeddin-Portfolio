@@ -50,12 +50,6 @@ function App() {
               {/* Desktop Navigation */}
               <div className="hidden md:flex space-x-6 lg:space-x-8">
                 <button 
-                  onClick={() => scrollToSection('about')}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
-                >
-                  About
-                </button>
-                <button 
                   onClick={() => scrollToSection('experience')}
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
                 >
@@ -78,6 +72,12 @@ function App() {
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
                 >
                   Skills
+                </button>
+                <button 
+                  onClick={() => scrollToSection('contact')}
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200 text-sm lg:text-base"
+                >
+                  Contact
                 </button>
               </div>
 
@@ -103,12 +103,6 @@ function App() {
               <div className="md:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-900/95 backdrop-blur-md rounded-lg mt-2">
                   <button 
-                    onClick={() => scrollToSection('about')}
-                    className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
-                  >
-                    About
-                  </button>
-                  <button 
                     onClick={() => scrollToSection('experience')}
                     className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
                   >
@@ -132,6 +126,12 @@ function App() {
                   >
                     Skills
                   </button>
+                  <button 
+                    onClick={() => scrollToSection('contact')}
+                    className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  >
+                    Contact
+                  </button>
                 </div>
               </div>
             )}
@@ -150,20 +150,6 @@ function App() {
                 <div className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                   I'm entering my third year studying Mathematics and Computer Science at UNSW. 
                   I love learning new things by building cool projects and solving real-world problems through software!
-                </div>
-                <div className="flex flex-col gap-3 sm:gap-4 max-w-md mx-auto lg:mx-0">
-                  <button 
-                    onClick={() => scrollToSection('about')}
-                    className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 text-sm sm:text-base"
-                  >
-                    Learn More
-                  </button>
-                  <button 
-                    onClick={() => scrollToSection('projects')}
-                    className="bg-gray-800 text-blue-400 border-2 border-blue-600 hover:bg-gray-700 font-semibold py-3 px-6 rounded-lg transition-all duration-200 text-sm sm:text-base"
-                  >
-                    View My Projects
-                  </button>
                 </div>
               </div>
               <div className="relative animate-float lg:pl-8 mt-8 lg:mt-0">
@@ -205,7 +191,7 @@ function App() {
                     <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Software Engineering Intern</h3>
                     <p className="text-blue-400 font-medium mb-2">Lamigo, https://lamigo.ai/</p>
                   </div>
-                  <div className="text-sm text-gray-400">October 2025 – December 2025</div>
+                  <div className="text-sm text-gray-400">September 2025 – November 2025</div>
                 </div>
                 <ul className="space-y-2 text-sm sm:text-base text-gray-300">
                   <li className="flex items-start">
@@ -268,7 +254,7 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
               {/* Unemployed Project */}
               <a 
-                href="unemployed-delta.vercel.app" 
+                href="https://unemployed-delta.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-900 rounded-xl p-6 sm:p-8 border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
@@ -452,7 +438,7 @@ function App() {
         </section>
 
         {/* Contact Section */}
-        <section className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 to-black overflow-hidden">
+        <section id="contact" className="relative flex items-center justify-center bg-gradient-to-br from-gray-900 to-black overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/20 to-transparent"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
             <div className="max-w-4xl mx-auto text-center">
