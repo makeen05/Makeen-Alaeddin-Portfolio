@@ -287,7 +287,7 @@ function App() {
 
               {/* Campus Resource Tracker */}
               <a 
-                href="[INSERT LINK]" 
+                href="https://trainee-demon-slayer-infinity-castl.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
