@@ -138,7 +138,7 @@ function App() {
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="animate-slide-up text-center lg:text-left lg:pr-8">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6">
-                  Hi I'm <span className="text-blue-400">Makeen Alaeddin</span> :)
+                  Hi I'm <span className="text-blue-400">Makeen Alaeddin</span> 👋
                 </h1>
                 <div className="text-base sm:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                   I'm entering my third year studying Mathematics and Computer Science at UNSW. 
